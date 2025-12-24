@@ -1,3 +1,10 @@
+# The re-implementation of this code includes 2 mini forked modification as below:
+#1. The hyper parameters are exposed in \Scripts\reco_V02.py
+#2. The Coil-wise forwarder model implementation has been forked to (Sigpy.mri.App.HighDimensionalRecon) with parameter "coil_batch_size" being defined.
+#There upper two mods will found in \Scripts\Augmented
+
+#Below the dashed lines are original author comments
+-------------------------------------------------------------------------------------------------------------------
 # JETS for Diffusion MRI at 7 T
 
 Demonstration on Joint k-q-slice rEconsTruction framework for Shift-encoded (JETS) Diffusion MRI at 7 T
