@@ -4,7 +4,7 @@
 The upper two mods can be found in \Scripts\Augmented, you need to rename and repalce them with the original.
 
 
-#Below the dashed lines are original author comments
+#Below are original author comments
 ------
 ****
 ____
