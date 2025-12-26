@@ -1,13 +1,19 @@
-# The re-implementation of this code includes 2 mini forked modification as below:
-1. The hyper parameters are exposed in \Scripts\reco_V02.py
-2. The Coil-wise forwarder model implementation has been forked to (Sigpy.mri.App.HighDimensionalRecon) with parameter "coil_batch_size" being defined.</br>
-The upper two mods can be found in \Scripts\Augmented, you need to rename and repalce them with the original.
+# The re-implementation of JETS-NAViEPI code includes 2 mini forked modification as below:
+
+1. The hyper parameters are exposed in reproducibility\augmented_scripts\reco_V02.py ()
+2. The Coil-wise forwarder model implementation has been added in reproducibility\Scripts\app_v02.py within "HighDimensionalRecon"class in (Sigpy.mri.App) with additional parameter "coil_batch_size" defined.</br>
+The upper two modifications can be found in reproducibility\augmented_scripts\, you need to rename them, then repalce the original scripts in Scripts\ folder with these augmented scripts.
+
+# Reproducibility on NHR@FAU
+The enviroment file is uploaded to reproducibility\HPC_environment
+The used sbatch scrpit is uploaded to reproducibility\HPC_scripts
+A sepplementatary Lab project report is uploaded to reproducibility/supplementary_report
 
 
-#Below are original author comments
-------
-****
-____
+#Below are original authors' comments
+------------------------------------------------------------------------
+************************************************************************
+________________________________________________________________________
 # JETS for Diffusion MRI at 7 T
 
 Demonstration on Joint k-q-slice rEconsTruction framework for Shift-encoded (JETS) Diffusion MRI at 7 T
