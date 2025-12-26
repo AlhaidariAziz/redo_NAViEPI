@@ -1,7 +1,7 @@
 # The re-implementation of JETS-NAViEPI code includes 2 mini forked modification as below:
 
-1. The hyper parameters are exposed in reproducibility\augmented_scripts\reco_V02.py.(rename it and repalce the original script "reco.py" in Scripts\)
-2. The Coil-wise forwarder model implementation has been added in reproducibility\Scripts\app_v02.py within "HighDimensionalRecon"class in (Sigpy.mri.App) with additional parameter "coil_batch_size" defined. (rename it and repalce the original script "Sigpy.mri.app" in the installed sigpy package)</br>
+1. The hyper parameters are exposed in reproducibility\augmented_scripts\reco_V02.py.(rename it and repalce the original script "reco.py" in \Scripts\ folder.)
+2. The Coil-wise forwarder model implementation has been added in \reproducibility\Scripts\app_v02.py within "HighDimensionalRecon"class, with additional parameter "coil_batch_size" defined. (rename it and repalce the original script "Sigpy.mri.app" in the installed sigpy package)</br>
 </br>
 
 # Reproducibility on NHR@FAU
